@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify
 from flask import *
 app = Flask(__name__)
-from collection import *
+from collections import *
+
 
 @app.route("/calculator/greeting", methods=['GET'])
 def greeting():
